@@ -13,7 +13,7 @@ import argon2 from "argon2";
 config();
 
 const mongoString =
-  "mongodb+srv://aimal4910:aimal%40123MongoDbDev@cluster0.a9qcv.mongodb.net/eChatbot";
+  "mongodb://mongo:uGATDAQaamhyjIEIbpspEKtqHZSYTPHO@mongodb.railway.internal:27017";
 const database = mongoose.connection;
 
 const app = express();
